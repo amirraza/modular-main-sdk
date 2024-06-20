@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Modular Main SDK"
 include(":app")
- 
+include(":main-sdk")
