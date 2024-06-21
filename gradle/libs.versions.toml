@@ -10,8 +10,11 @@ activityCompose = "1.9.0"
 composeBom = "2023.08.00"
 appcompat = "1.7.0"
 material = "1.12.0"
+modularCommon = "1.0.1"
 
 [libraries]
+modular-common = { group = "com.example.modular", name = "common", version.ref = "modularCommon" }
+
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
